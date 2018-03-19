@@ -9,16 +9,15 @@
 > 2. 定义了软件开发基本流程与活动  
 >    创意阶段：描述问题，市场，关键技术等  
 >    分析阶段：用户故事、领域模型、业务流程等  
-> ......
+> ......  
 >（前提假设：需求是明确的，在短期内可获取，每个阶段是无差错的）
 - - - 
 > ### 缺点：
-> 依赖问题：前面需求模糊，后面工作…
-> 容错问题：在后期发现需求问题，工作量难接受
-> 资源调配问题：知识技能需求不同、人员数量要求不同
-> 现象：延期，项目不可控
-              
-![瀑布模型](https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/increasement.png)
+> 依赖问题：前面需求模糊，后面工作…  
+> 容错问题：在后期发现需求问题，工作量难接受  
+> 资源调配问题：知识技能需求不同、人员数量要求不同  
+> 现象：延期，项目不可控  
+![瀑布模型](https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/waterfall.png)
 
               
 * 增量模型：优点：人员分配灵活，刚开始不用投入大量人力资源；
