@@ -1,3 +1,4 @@
+
 #15331122 黄依婷 Hw2
 
 1、简答题
@@ -15,6 +16,7 @@
               现象：延期，项目不可控
               
 ![瀑布模型](https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/increasement.png)
+<img dysrc="https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/increasement.png" width="4" height="3"/> 
               
 增量模型：优点：人员分配灵活，刚开始不用投入大量人力资源；
                如果核心产品很受欢迎，则可增加人力实现下一个增量；
