@@ -15,7 +15,7 @@
 > 容错问题：在后期发现需求问题，工作量难接受  
 > 资源调配问题：知识技能需求不同、人员数量要求不同  
 > 现象：延期，项目不可控  
-![瀑布模型](https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/waterfall.png)
+![瀑布模型](https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/pictures/waterfall.png)
 - - -  
               
 ### 增量模型：  
@@ -26,7 +26,7 @@
 > #### 缺点：  
 > 1. 行开发构件有可能遇到不能集成的风险，软件必须具备开放式的体系结构；  
 > 2. 增量模型的灵活性可以使其适应这种变化的能力大大优于瀑布模型和快速原型模型，但也很容易退化为边做边改模型，从而使软件过程的控制失去整体性
-![增量模型](https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/increasement.png)   
+![增量模型](https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/pictures/increasement.png)   
 - - -  
   
 ### 螺旋模型：  
@@ -38,7 +38,7 @@
 > #### 缺点：  
 > 1. 采用螺旋模型需要具有相当丰富的风险评估经验和专门知识，在风险较大的项目开发中，如果未能够及时标识风险，势必造成重大损失；  
 > 2. 过多的迭代次数会增加开发成本，延迟提交时间。
-![螺旋模型](https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/screw.png)  
+![螺旋模型](https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/pictures/screw.png)  
 - - -  
   
 ## 简述 UP 的三大特点，其中哪些内容体现了用户驱动的开发，哪些内容体现风险驱动的开发？  
@@ -60,4 +60,8 @@
   
 ## 为什么说，UP 为企业按固定节奏生产、固定周期发布软件产品提供了依据？
 > UP划分为四个阶段，每个阶段都有各自的里程碑，而只有完成本阶段的里程碑的条件才能进入下一个阶段，因此是固定节奏生产的。  
-> 在每个阶段中，UP可以进行多次迭代，每次迭代可以发布，因此为固定周期发布提供了依据。
+> 在每个阶段中，UP可以进行多次迭代，每次迭代可以发布，因此为固定周期发布提供了依据。  
+  
+# 2、项目管理使用  
+## 使用截图工具（png格式输出），展现你团队的任务 Kanban  
+![看板](https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/pictures/schedule0.png) 
