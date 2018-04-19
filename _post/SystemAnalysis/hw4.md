@@ -31,8 +31,10 @@
 <img src="https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/pictures/hw422.png" width="25%">  
   
 #### **c. 查找淘宝退货业务官方文档，使用多泳道图，表达客户、淘宝网、淘宝商家服务系统、商家等用户和系统协同完成退货业务的过程。分析客户要完成退货业务，在淘宝网上需要实现哪些系统用例**     
-<img src="" width="">
-
+<img src="https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/pictures/hw423.png">  
+##### 客户要完成退货业务，在淘宝网上需要实现哪些系统:  
+生成退款单、管理退款单、同意退款、不同意退款处理。  
+  
 ### 3、用例文本编写  
 #### 在大作业基础上，分析三种用例文本的优点和缺点
 
