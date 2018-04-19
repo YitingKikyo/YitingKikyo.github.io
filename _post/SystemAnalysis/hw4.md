@@ -23,10 +23,16 @@
   
 ### 2、业务建模  
 #### a. 在（任务b）基础上，用活动图建模找酒店用例。简述利用流程图发现子用例的方法。  
-#### b. 选择你身边的银行 ATM，用活动图描绘取款业务流程  
-
-#### **c. 查找淘宝退货业务官方文档，使用多泳道图，表达客户、淘宝网、淘宝商家服务系统、商家等用户和系统协同完成退货业务的过程。分析客户要完成退货业务，在淘宝网上需要实现哪些系统用例**  
+<img src="https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/pictures/hw421.png" width="45%">  
+##### 利用流程图发现子用例的方法:  
+当流程图出现分支开始，沿着分支从开始到结束就是子用例。  
   
-### 3、用例文本编写  
+#### b. 选择你身边的银行 ATM，用活动图描绘取款业务流程  
+<img src="https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/pictures/hw422.png" width="25%">  
+  
+#### **c. 查找淘宝退货业务官方文档，使用多泳道图，表达客户、淘宝网、淘宝商家服务系统、商家等用户和系统协同完成退货业务的过程。分析客户要完成退货业务，在淘宝网上需要实现哪些系统用例**     
+<img src="" width="">
+
+### 3、用例文本编写  
 #### 在大作业基础上，分析三种用例文本的优点和缺点
 
