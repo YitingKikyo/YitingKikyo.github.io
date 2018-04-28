@@ -5,7 +5,7 @@
   * 说明：请不要受 PCMEF 层次结构影响。你需要识别实体（E）和 中介实体（M，也称状态实体）  
     * 在单页面应用（如 vue）中，E 一般与数据库构建有关， M 一般与 store 模式 有关  
     * 在 java web 应用中，E 一般与数据库构建有关， M 一般与 session 有关  
-{src="https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/pictures/511.png" width="70%"} 
+<img src="https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/pictures/511.png" width="70%"> 
 
 * **b. 数据库建模(E-R 模型)**  
 -按 Task 3 要求，给出系统的 E-R 模型（数据逻辑模型）  
