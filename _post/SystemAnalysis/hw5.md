@@ -13,3 +13,179 @@
 -不负责的链接 http://www.cnblogs.com/mcgrady/archive/2013/05/25/3098588.html  
 -导出 Mysql 物理数据库的脚本  
 -简单叙说 数据库逻辑模型 与 领域模型 的异同  
+<img src="https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/pictures/521.png" width="60%">   
+   
+导出的Mysql物力数据库脚本为：  
+```
+if exists(select 1 from sys.sysforeignkey where role='FK_CUSTOMER_RELATIONS_RESERVAT') then
+    alter table Customer
+       delete foreign key FK_CUSTOMER_RELATIONS_RESERVAT
+end if;
+
+if exists(select 1 from sys.sysforeignkey where role='FK_CUSTOMER_CHOOSE_HOTEL') then
+    alter table Customer
+       delete foreign key FK_CUSTOMER_CHOOSE_HOTEL
+end if;
+
+if exists(select 1 from sys.sysforeignkey where role='FK_HOTEL_HAS_ROOM') then
+    alter table Hotel
+       delete foreign key FK_HOTEL_HAS_ROOM
+end if;
+
+if exists(select 1 from sys.sysforeignkey where role='FK_RESERVAT_RELATIONS_ROOM') then
+    alter table Reservation
+       delete foreign key FK_RESERVAT_RELATIONS_ROOM
+end if;
+
+drop index if exists Customer.Customer_PK;
+
+drop table if exists Customer;
+
+drop index if exists Hotel.choose_FK;
+
+drop index if exists Hotel.Hotel_PK;
+
+drop table if exists Hotel;
+
+drop index if exists Reservation.Relationship_2_FK;
+
+drop index if exists Reservation.Reservation_PK;
+
+drop table if exists Reservation;
+
+drop index if exists Room.Relationship_4_FK;
+
+drop index if exists Room.has_FK;
+
+drop index if exists Room.Room_PK;
+
+drop table if exists Room;
+
+/*==============================================================*/
+/* Table: Customer                                              */
+/*==============================================================*/
+create table Customer 
+(
+   "customer full name" char(10)                       not null,
+   "hotel name"         char(10)                       null,
+   "reservation id"     integer                        null,
+   "email address"      char(20)                       null,
+   constraint PK_CUSTOMER primary key ("customer full name")
+);
+
+/*==============================================================*/
+/* Index: Customer_PK                                           */
+/*==============================================================*/
+create unique index Customer_PK on Customer (
+"customer full name" ASC
+);
+
+/*==============================================================*/
+/* Table: Hotel                                                 */
+/*==============================================================*/
+create table Hotel 
+(
+   "hotel name"         char(10)                       not null,
+   "room id"            integer                        null,
+   description          char(256)                      null,
+   constraint PK_HOTEL primary key ("hotel name")
+);
+
+/*==============================================================*/
+/* Index: Hotel_PK                                              */
+/*==============================================================*/
+create unique index Hotel_PK on Hotel (
+"hotel name" ASC
+);
+
+/*==============================================================*/
+/* Index: choose_FK                                             */
+/*==============================================================*/
+create index choose_FK on Hotel (
+"hotel name" ASC
+);
+
+/*==============================================================*/
+/* Table: Reservation                                           */
+/*==============================================================*/
+create table Reservation 
+(
+   "reservation id"     integer                        not null,
+   "room id"            integer                        null,
+   "hotel name"         char(10)                       null,
+   "check in date"      char(10)                       null,
+   "check out date"     char(10)                       null,
+   constraint PK_RESERVATION primary key ("reservation id")
+);
+
+/*==============================================================*/
+/* Index: Reservation_PK                                        */
+/*==============================================================*/
+create unique index Reservation_PK on Reservation (
+"reservation id" ASC
+);
+
+/*==============================================================*/
+/* Index: Relationship_2_FK                                     */
+/*==============================================================*/
+create index Relationship_2_FK on Reservation (
+"reservation id" ASC
+);
+
+/*==============================================================*/
+/* Table: Room                                                  */
+/*==============================================================*/
+create table Room 
+(
+   "room id"            integer                        not null,
+   type                 char(10)                       null,
+   price                integer                        null,
+   avalibility          smallint                       null,
+   constraint PK_ROOM primary key ("room id")
+);
+
+/*==============================================================*/
+/* Index: Room_PK                                               */
+/*==============================================================*/
+create unique index Room_PK on Room (
+"room id" ASC
+);
+
+/*==============================================================*/
+/* Index: has_FK                                                */
+/*==============================================================*/
+create index has_FK on Room (
+"room id" ASC
+);
+
+/*==============================================================*/
+/* Index: Relationship_4_FK                                     */
+/*==============================================================*/
+create index Relationship_4_FK on Room (
+"room id" ASC
+);
+
+alter table Customer
+   add constraint FK_CUSTOMER_RELATIONS_RESERVAT foreign key ("reservation id")
+      references Reservation ("reservation id")
+      on update restrict
+      on delete restrict;
+
+alter table Customer
+   add constraint FK_CUSTOMER_CHOOSE_HOTEL foreign key ("hotel name")
+      references Hotel ("hotel name")
+      on update restrict
+      on delete restrict;
+
+alter table Hotel
+   add constraint FK_HOTEL_HAS_ROOM foreign key ("room id")
+      references Room ("room id")
+      on update restrict
+      on delete restrict;
+
+alter table Reservation
+   add constraint FK_RESERVAT_RELATIONS_ROOM foreign key ("room id")
+      references Room ("room id")
+      on update restrict
+      on delete restrict;
+```
