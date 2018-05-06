@@ -5,4 +5,5 @@
 * [作业2](https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/hw2.md)  
 * [作业3](https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/Tools%20use%20--%20UMLet.md)  
 * [作业4](https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/hw4.md)  
-* [作业5](https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/hw5.md)
+* [作业5](https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/hw5.md)  
+* [作业6](https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/hw6.md)
