@@ -15,6 +15,9 @@
 <img src="https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/pictures/73.png" width="45%">   
   
 ### 状态图：  
+<img src="https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/pictures/74.png" width="70%">  
+  
+### 顺序图：  
 
 #### 建模者答案：  
 * 收集建模者答案URL  
