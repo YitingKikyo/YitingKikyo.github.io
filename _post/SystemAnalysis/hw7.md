@@ -8,7 +8,8 @@
 ### 用例图：  
 <img src="https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/pictures/71.png" width="68%">  
 ### 活动图：  
-
+<img src="https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/pictures/72.png" width="58%">  
+### 领域建模：  
 
 #### 建模者答案：  
 * 收集建模者答案URL  
