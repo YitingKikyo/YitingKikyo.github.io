@@ -12,6 +12,9 @@
 <img src="https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/pictures/72.png" width="58%">  
   
 ### 领域建模：  
+<img src="https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/pictures/73.png" width="45%">   
+  
+### 状态图：  
 
 #### 建模者答案：  
 * 收集建模者答案URL  
