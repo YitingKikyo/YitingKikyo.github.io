@@ -26,5 +26,7 @@
 
 ### 以你的项目为案例 
 #### 绘制三层架构模型图，细致到分区  
+<img src="https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/pictures/81.png" width="75%">  
+  
 #### 结合你程序的结构，从程序员角度说明三层架构给开发者带来的便利  
 ### 研究 VUE 与 Flux 状态管理的异同
