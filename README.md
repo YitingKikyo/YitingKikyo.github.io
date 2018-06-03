@@ -7,4 +7,5 @@
 * [作业4](https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/hw4.md)  
 * [作业5](https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/hw5.md)  
 * [作业6](https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/hw6.md)  
-* [作业7](https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/hw7.md)
+* [作业7](https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/hw7.md)  
+* [作业8](https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/hw8.md)
