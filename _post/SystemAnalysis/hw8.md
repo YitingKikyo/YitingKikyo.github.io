@@ -38,4 +38,10 @@
 * 阻止功能模块，利于对相应模块进行debug  
   
 ### 研究 VUE 与 Flux 状态管理的异同  
+* Flux数据流的顺序是:  
+View发起Action->Action传递到Dispatcher->Dispatcher将通知Store->Store的状态改变通知View进行改变  
+* Vuex数据流的顺序是:  
+View调用store.commit提交对应的请求到Store中对应的mutation函数->store改变(vue检测到数据变化自动渲染)  
+* 同:  
+基于CQRS（命令和查询职责分离），单向数据流动、数据驱动。
 
