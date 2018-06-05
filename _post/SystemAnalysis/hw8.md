@@ -29,9 +29,8 @@
 <img src="https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/pictures/81.png" width="75%">  
   
 #### 结合你程序的结构，从程序员角度说明三层架构给开发者带来的便利  
-* 可以只关注结构中的某一层  
+* 每个层或包的职责是清晰的，模块化并可扩展的，可以只关注结构中的某一层  
 * 可以用新的实现替代原来原有层次的实现  
-* 利于标准化  
 * 利于各层逻辑的复用  
 * 结构清楚、分工明确，利于后期的维护和升级  
 * 前后端分离，并行开发，对前后端程序员的要求不同  
