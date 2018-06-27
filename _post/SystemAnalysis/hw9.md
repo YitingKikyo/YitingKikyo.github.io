@@ -13,4 +13,4 @@
   
 ### 将逻辑设计类图映射到实际项目框架的包图。用树形结构表述实现的包和类  
 * 包图  
-  
+  <img src="https://github.com/YitingKikyo/YitingKikyo.github.io/blob/master/_post/SystemAnalysis/pictures/93.png" width="40%">
